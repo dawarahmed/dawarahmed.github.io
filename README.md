@@ -2,7 +2,7 @@
 
 My Personal Website hosted by Github. 
 
-Goal was to make a website which I believed was **BEAUTIFUL**, **FUNCTIONAL** and allowed to me to **DISPLAY** my work.
+Goal was to make a website which I believed was **BEAUTIFUL**, **FUNCTIONAL** and it allowed to me to **DISPLAY** my work.
 
 Using technologies such as :
   - HTML
