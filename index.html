@@ -1,30 +1,61 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Dawar Ahmed</title>
-			<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-    		<div class="blurb">
-        		<h1>Hi there, I'm Dawar Ahmed!</h1>
-				<p>I'm a sophmore Computer Science major from Georgia Tech. <em>Proud to be a Yellow Jacket and a Sig Ep.</em> <a href="https://www.youtube.com/watch?v=78NXOtJXH8I">Go Jackets!</a></p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:dahmed7@gatech.edu">email</a></li>
-        		<li><a href="https://github.com/dawarahmed">github.com/dawarahmed</a></li>
-			</ul>
-		</footer>
-	</body>
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet">
+  <title>Hi I'm Dawar!</title>
+</head>
+<body>
+    <div id="header">
+        <div id="left">
+            <a id="logo">Dawar Ahmed</a>
+        </div>
+        <div id="right">
+            <!-- <div class="tab">
+            <a>Home</a>
+            <a>About Me</a>
+            <a>CV</a>
+            <a>Experience</a>
+            <a>Projects</a> -->
+
+            <table id="directory">
+                <tr>
+                    <td><button class="head1">Home</button></td>
+                    <td><button class="head2" onclick="head1()">About Me</button></td>
+                    <td><button class="head3">CV</button></td>
+                    <td><button class="head4">Experience</button></td>
+                    <td><button class="head5">Projects</button></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div id="home">
+        <div id="art">
+            <div id="holder">
+                <img id="mainart" src="newimage.jpg">
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <a target="_blank" href="mailto:dahmed7@gatech.edu">
+            <img  id="logo1" class="logos" src="200px-Outlook.com_icon.svg.png">
+        </a>
+
+        <a target="_blank" href="https://github.com/dawarahmed">
+            <img id="logo2" class="logos" src="GitHub-Mark-64px.png">
+        </a>
+
+        <a target="_blank" href="https://www.linkedin.com/in/dawar-ahmed/">
+            <img id="logo3" class="logos" src="In-2CRev-75px-TM.png">
+        </a>
+
+        <a target="_blank" href="https://open.spotify.com/user/dawarahmed98?si=bsiOHOWsQYit4Fzae5QJfQ">
+            <img id="logo4" class="logos" src="Spotify_Icon_RGB_Green.png">
+        </a>
+
+    <script src="index.js"></script>
+
+</body>
 </html>
