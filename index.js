@@ -3,7 +3,7 @@ function head2() {
 }
 
 function head3() {
-    window.open("https://www.google.com")
+    window.open("https://dawarahmed.github.io/resume_DawarAhmed.pdf")
 }
 
 function head4() {
