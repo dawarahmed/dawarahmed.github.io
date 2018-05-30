@@ -61,6 +61,10 @@ button {
     height: 6vh;
 }
 
+.head1 {
+    border-bottom-color: rgb(162, 241, 116);
+}
+
 .head1:hover {
     border-bottom-color: rgb(162, 241, 116);
 }
